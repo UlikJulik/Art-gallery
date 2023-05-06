@@ -1,26 +1,21 @@
-a{
-    color: #3d88ea;
-    text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
-}
 a:hover{
-    transition: 0.75s;
+    transition: 0.5s;
     color: #3bdd1b;
 }
 
 
 .page-content{
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 350px;
     height: 685.85px;
     font-family: bellota text,sans-serif;
-    line-height: 130%;
-    text-align: center!important;
+    line-height: 170%;
+    text-align: center;
 }
 .page-login { 
-    background-image: url("./img/spiral-3112405_1920.jpg");
+    background-image: url("https://cdn.gallerix.asia/x/src/news/2021/Aug/spiral-3112405_1920.jpg");
     position: fixed;
     top: 0;
     left: 0;
@@ -34,12 +29,12 @@ a:hover{
 }
 
 /*img of brand*/
-.brand{
+.brand1{
     width: 340px;
     height: 140.5px;
-    text-align: center!important;
+    text-align: center;
 }
-.brand img.brand-img {
+.brand1-img {
     width: 140px;
     height: auto;
 }
@@ -48,9 +43,9 @@ a:hover{
 .textLogin{
     width: 100%;
     height: 50px;
-    color: #add966!important;
-    font-size: 16px!important;
-    text-align: center!important;
+    color: #add966;
+    font-size: 16px;
+    text-align: center;
 }
 
 .input{
@@ -82,6 +77,12 @@ a:hover{
     font-size: 14px;
     font-weight: 500;
 }
+.a_style_public{
+    color: #3d88ea;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 /*Sign*/
 .btn {
     font-family: open sans,sans-serif;
@@ -108,4 +109,6 @@ a:hover{
     height: 20px;
     margin-top: 60px;
     color: white;
+    font-weight: 600;
 }
+

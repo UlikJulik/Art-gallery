@@ -1,0 +1,77 @@
+.page_login{
+    background-image: url("https://cdn.gallerix.asia/x/src/join.jpg"); 
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    line-height: 130%;
+/*    filter: brightness(55%);*/
+    background-attachment: fixed;
+    font-family: bellota text,sans-serif;
+}
+
+
+.content{
+    width: 430px;
+    height: 1194.14px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 130%;
+    text-align: center;
+    padding: 50px 40px 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 44, 72);
+    opacity: 0.8;
+}
+
+/*img and brand*/
+.brand{
+    width: 340px;
+    height: 75.26px;
+    margin-bottom: 22px;
+}
+.brand-img {
+    width: 75px;
+    height: auto;
+}
+
+.formSize{
+    width: 340px;
+    height: 793.33px;
+    margin: 25px 0 0;
+}
+
+.createNewAcc{
+    width: 340px;
+    height: 17.6px;
+}
+
+.text_p{
+    margin: 25px 0 0;
+    padding-bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    line-height: 110%;
+}
+
+
+
+
+
+
+.page-content {
+    padding: 0 10px 0 0!important;
+}
+
+.page-register-v3 .panel {
+    width: 420px;
+    margin-bottom: 45px;
+    background-color: rgba(30,30,40, 0.5) !important;
+    border-radius: .286rem;
+}
+
+.page-register-v3 .panel .panel-body {
+    padding: 50px 40px 40px;
+}

@@ -1,0 +1,20 @@
+.gallery{
+    display: inline-block;
+    width: 150px;
+    height: 218px;
+    overflow: hidden;
+    line-height: 1.1rem;
+    font-size: 1rem;
+    max-width: 29%;
+    margin: 0 8px 5px 0;
+}
+.pic{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 4px;
+    vertical-align: top;
+    object-fit: cover;
+}

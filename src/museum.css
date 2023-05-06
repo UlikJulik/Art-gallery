@@ -1,0 +1,242 @@
+.page{
+    font-family: bellota text,sans-serif;
+    font-size: 1.4rem;
+    line-height: 130%;
+    position: relative;
+    margin-left: 90px;
+}
+
+.firstImg{
+    height: 300px;
+    background-image: url(https://cdn.gallerix.asia/x/src/var/look2018/a1hd.jpg);
+    background-position: center center;
+    position: relative;
+    padding: 30px;
+    background-size: cover;
+    margin-right: 90px;
+}
+
+.picture_gallery{
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 50px;
+    color: orange;
+}
+.picture_gallery_countine{
+    font-size: 18px;
+}
+.picture_gallery_i{
+    width: 10px;
+    height: 14.4px;
+    font-family: "Font Awesome";
+}
+
+
+.panel{
+    position: relative;
+    margin-bottom: 2.143rem;
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: .286rem;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-body{
+    position: relative;
+    padding: 30px;
+    padding-left: 40px
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.main-size {
+    margin-bottom: 20px;
+    padding-right: 30px;
+    position: relative;
+    min-height: 1px;
+    cursor: pointer;
+}
+
+@media (min-width: 1200px){
+    .col-xl-4 {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 32%;
+    }
+}
+/*
+@media (min-width: 992px){
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 448px){
+    .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+*/
+
+.row_img{
+    border-radius: 4px;
+    width: 100%;
+    transition: .1s;
+}
+.row_p{
+    margin-left: 30px;
+}
+.btn {
+    font-family: open sans,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-weight: 700;
+}
+.btn-help{
+    color: #fff;
+    background-color: #667afa;
+    border-color: #667afa;
+    box-shadow: none;
+}
+.btn-lg{
+    padding: .715rem 1.286rem;
+    font-size: 1.286rem;
+    line-height: 1.3333333333;
+    border-radius: .286rem;
+}
+
+.mt_20{
+    margin-top: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.panel_title{
+    display: block;
+    padding: 20px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: #222;
+}
+
+.pic{
+    display: inline-block;
+    width: 150px;
+    height: 268px;
+    overflow: hidden;
+    line-height: 1.1rem;
+    font-size: 1rem;
+    max-width: 29%;
+    margin: 0 8px 5px 0;
+}
+.a_dv1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 4px;
+    vertical-align: top;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+@media (min-width: 1200px){
+    .col-xl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+.rb3, .rb5 {
+    border-radius: 4px;
+    transition: .1s;
+}
+
+.floot{
+    background: #242424;
+    margin-left: 90px;
+    color: #999;
+    border-top: 0;
+    height: 44px;
+    padding: 10px 30px;
+}
+.floot-legal{
+    float: left;
+    font-size: 16px;
+}
+.floot_a{
+    font-weight: 700;
+    color: #1c71ff;
+}
+.floot_1{
+    float: left;
+    font-size: 16px;
+}
+.floot_right{
+    float: right;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.floot_menu{
+    padding-top: 20px;
+    clear: both;
+    width: 100%;
+    vertical-align: top;
+    background-color: #242424; ;
+}
+.floot_menu div{
+    display: inline-block;
+}
+.floot_metrika{
+    float: right;
+    margin: 10px 20px;
+}
+.floot_metrika img{
+    opacity: .5;
+    text-align: right;
+    width: 80px;
+    height: 31px;
+    border: 0;
+}
+.leftpart{
+    text-align: right;
+    vertical-align: top;
+    font-size: 14px;
+    border-radius: .215rem;
+    
+}
+.list-group{
+    font-size: 14px;
+    border-radius: .215rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.rightpart{
+    text-align: left;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.blue_green{
+    background: linear-gradient(90deg,#1cc54c 10%,#0367d3 88%,#0367d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0367d3;
+    display: table;
+    transition: all 300ms;
+}

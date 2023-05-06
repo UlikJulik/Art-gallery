@@ -1,0 +1,14 @@
+.page{
+    position: relative;
+    font-family: bellota text,sans-serif;
+    font-size: 1.4rem;
+    line-height: 130%;
+    width: 100%;
+}
+
+.nav-header{
+    width: 100%;
+    height: 66px;
+}
+
+
